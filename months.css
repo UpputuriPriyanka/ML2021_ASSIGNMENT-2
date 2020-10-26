@@ -1,0 +1,27 @@
+h1{
+    background-color: black;
+    color: cornsilk;
+    padding:8px;
+    text-align: center;
+}
+img{
+    width:200px;
+    height:200px;
+}
+ol{
+    color:crimson;
+    font-size:25px;
+    
+}
+table{
+    width:auto;
+    height:auto;
+    border-spacing:40px;
+
+}
+.bt{
+    color:white;
+    background-color:black;
+    text-align: center;
+    padding:5px;
+}
