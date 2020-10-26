@@ -1,15 +1,15 @@
 # ML2021_ASSIGNMENT-2
 web page.
-we have done this Webpage in a team of two members
+we have done this Webpage in a team of two members\n
 CONTRIBUTORS:
 1.VADLAMURI KUMAR-18PA1A05G3
 2.UPPUTURI PRIYANKA-19PA1A05I2
 
 OBJECTIVE:
 Our webpage provides a detailed information about three tasks
-1.LUXURY HOTELS
-2.MOVIES
-3.FESTIVALS OF 2020
+* LUXURY HOTELS
+* MOVIES
+* FESTIVALS OF 2020
 
 DESCRIPTION:
 This webpage has a home page which offers Three choices for a User
