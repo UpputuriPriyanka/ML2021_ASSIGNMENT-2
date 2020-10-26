@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="place.css">
+</head>
+<body background="h2.jpg">
+
+<span class="m1">Contact Details</span>
+<form>
+
+<select class="k2">
+  <option>--Select Date--</option>
+  <option>25 oct</option>
+  <option>26 oct</option>
+  <option>27 oct</option>
+
+</select>
+
+<select class="k2">
+  <option>--Select Guests--</option>
+  <option>4</option>
+  <option>6</option>
+  <option>7</option>
+
+</select>
+
+<select class="k2">
+  <option>--Select Session--</option>
+  <option>Lunch</option>
+  <option>Dinner</option>
+</select>
+<br>
+<input class="k1" type="text" name="fname" placeholder="First Name">
+<br>
+<input class="k1" type="text" name="lname" placeholder="Last name">
+<br>
+<input class="k1" type="text" name="email" placeholder="Email">
+<br>
+<select class="k2">
+  <option>--Select Option--</option>
+  <option>6303374722</option>
+  <option>9640694722</option>
+</select>
+<br>
+
+<input type="radio" name="status"><span>Birthday</span><br>
+<input type="radio" name="status"><span>Anniversary</span><br>
+<input type="radio" name="status"><span>Is this your first visit?</span><br>
+
+<h3>Any comments or suggestions?</h3>
+<textarea rows="4" cols="40" placeholder="Enter your comment here...">  
+</textarea>
+</form>
+
+<div id="right" hidden>
+ 
+    <p>Thank You!Visit Again</p>
+ 
+</div>
+ 
+<div id="test">
+        <button> Order Now </button>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+ <script>
+     $(document).ready(function() {
+      $("button").click(function() {
+          $("#right").fadeTo(2500,0.5);
+     });
+   });
+ 
+ </script> 
+
+<input  class="sub" type="submit" value="Backto Home" onclick="my3()">
+<script>
+  function my3(){
+   window.location="home.html";
+}
+</script>
+
+</body>
+</html>

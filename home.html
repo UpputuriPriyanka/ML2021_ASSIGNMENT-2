@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="main">
+	 <marquee class="scrolling" width="100%" direction="left" height="100px" scrollamount="16">Luxury Restaurant</marquee>
+
+</div>
+
+<ul>
+	<li><button onclick="my4()">Home</li>
+	<li><button onclick="my5()">About us</li>
+	<li><a>Menu</a>
+	    <ul>
+	  	<li><button onclick="my3()">Tables</li>
+	    <li><button onclick="my()">Veg & Non-veg</button></li>
+	    <li><button onclick="my1()">Starters</li>
+	    <li><button onclick="my2()">Drinks&Icecreams</li>
+	    </ul>
+	</li>
+
+	<li><a href="https://www.google.com/maps/dir/16.7881036,81.8989072/16.544172,81.516504/@16.6648467,81.4280176,10z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0">Map</a></li>
+</ul>
+<h1 class="d">Welcome To Our Restaurant</h1>
+<button onclick="my6()">Back
+</body>
+</html>
+
+<script>
+function my(){
+   window.location="vegandnonveg.html";
+}
+
+function my1(){
+   window.location="Starters.html";
+}
+
+function my2(){
+   window.location="Drinks.html";
+}
+function my3(){
+   window.location="Tables.html";
+}
+function my4(){
+   window.location="home.html";
+}
+function my5(){
+   window.location="about.html";
+}
+function my6(){
+   window.location="index.html";
+}
+</script>

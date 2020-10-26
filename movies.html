@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movies List</title>
+	<link rel="stylesheet" type="text/css" href="movieslist.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+    $(document).ready(function(){
+      $(".input").on("click",function(){
+        $(".main").hide();
+      })
+    });
+  </script>
+
+</head>
+<body>
+  <h1 class="mainmethod">All Movies List</h1>
+  <h1 class="name">Enter Movie Name: </h1><br>
+  <input type="text" class="input"><br>
+  <button class="submit">Submit</button>
+  <div class="main">
+    <p class="title"></p>
+    <p class="year"></p>
+    <p class="director"></p>
+    <p class="release"></p>
+    <p class="country"></p>
+    <p class="awards"></p>
+  </div>
+  <script src="mov.js"></script>
+  <button onclick="my6()">Back
+
+</body>
+</html>
+</body>
+</html>
